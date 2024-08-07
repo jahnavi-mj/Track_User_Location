@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#map {
+    height: 400px; /* Fixed height for the map */
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
